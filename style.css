@@ -32,13 +32,11 @@ li {
 }
 
 .m1:last-child {
-  border-bottom: none;
 }
 
 .m2 {
   border: 1px solid lightsteelblue;
   border-top: none;
-  border-bottom: none;
 }
 
 .star {
