@@ -9,10 +9,34 @@
 
 ul,
 li {
-  list-style: none;
 }
 
 .message {
   height: 100px;
   width: 300px;
+}
+
+.features {
+  list-style: circle black;
+}
+
+.m1 {
+  border: 1px solid lightsteelblue;
+  border-collapse: collapse;
+  border-top: none;
+  border-spacing: 0;
+}
+
+.m1:first-child {
+  border-top: 1px solid lightsteelblue;
+}
+
+.m1:last-child {
+  border-bottom: none;
+}
+
+.m2 {
+  border: 1px solid lightsteelblue;
+  border-top: none;
+  border-bottom: none;
 }
